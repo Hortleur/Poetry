@@ -5,7 +5,7 @@
 <div class="drawer">
     <input id="my-drawer" type="checkbox" class="drawer-toggle" />
     <div class="drawer-content relative bg-gradient-to-bl from-primary via-secondary to-base-100">
-        <label for="my-drawer" class="btn btn-circle btn-secondary drawer-button font-lobster absolute text-4xl font-bold top-4 left-4 hover:scale-125 hover:duration-150">P</label>
+        <label for="my-drawer" class="btn btn-circle btn-secondary border-2 border-amber-500 drawer-button font-cursive absolute text-4xl font-bold top-4 left-4 hover:scale-125 hover:duration-150 hover:border-amber-500">P</label>
         <slot />
     </div>
     <div class="drawer-side ">
