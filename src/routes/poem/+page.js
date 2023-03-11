@@ -1,3 +1,4 @@
+export const ssr = false;
 export const config = {
     runtime: 'edge',
 };
