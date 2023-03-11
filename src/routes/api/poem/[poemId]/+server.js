@@ -1,5 +1,9 @@
 import {prisma} from "$lib/server/prisma.js";
 
+export const config = {
+    runtime: 'edge',
+};
+
 export const GET = async ({params}) => {
     const res = await prisma.poem.findFirst({
         where:{
