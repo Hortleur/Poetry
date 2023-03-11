@@ -1,14 +1,12 @@
 {
 	"name": "poetry",
 	"version": "0.0.1",
-	"prisma": {
-		"seed": "node prisma/seed.js"
-	},
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
-		"preview": "vite preview"
+		"preview": "vite preview",
+		"vercel-build": "node ./build.js"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^2.0.0",
