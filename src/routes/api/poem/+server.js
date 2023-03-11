@@ -4,7 +4,7 @@ export const config = {
     runtime: 'edge',
 };
 
-export const get = async ({request}) => {
+export const GET = async ({request}) => {
 
     const res = await prisma.poem.findMany({
         include:{

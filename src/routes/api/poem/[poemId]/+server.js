@@ -4,7 +4,7 @@ export const config = {
     runtime: 'edge',
 };
 
-export const get = async ({params}) => {
+export const GET = async ({params}) => {
     const res = await prisma.poem.findFirst({
         where:{
             id: params.id

@@ -1,4 +1,6 @@
-import {error, fail} from "@sveltejs/kit";
+export const config = {
+    runtime: 'edge',
+};
 
 export async function load({fetch}) {
     const fetchPoem = async () =>{
