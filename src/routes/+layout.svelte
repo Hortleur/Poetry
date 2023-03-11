@@ -13,7 +13,7 @@
         <ul class="menu p-4 w-80 bg-accent text-base-content">
             <li><a href="/">Acceuil</a></li>
             <li><a href="/poem">Poèmes</a></li>
-            <li><a href="/style">Styles</a></li>
+            <li><a href="/poemstyle">Styles</a></li>
         </ul>
     </div>
 </div>

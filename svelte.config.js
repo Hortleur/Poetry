@@ -1,7 +1,7 @@
 import adapter from '@sveltejs/adapter-vercel'
 import {vitePreprocess} from "@sveltejs/kit/vite";
 
-/** @type {import('@sveltejs/kit').Config} */
+/** @poemstyle {import('@sveltejs/kit').Config} */
 const config = {
 	kit: {
 		// adapter-auto only supports some environments, see https://kit.svelte.dev/docs/adapter-auto for a list.

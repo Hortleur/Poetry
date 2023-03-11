@@ -1,4 +1,4 @@
-/** @type {import('tailwindcss').Config} */
+/** @poemstyle {import('tailwindcss').Config} */
 module.exports = {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
