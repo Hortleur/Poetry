@@ -20,7 +20,7 @@
             <p class="line-clamp-3">{content}</p>
             <div class="flex flex-row justify-between items-center">
                 <p><a href="/poemstyle/{styleId}"><span class="badge text-md font-semibold">{styleName}</span></a></p>
-                <p class="text-lg font-bold text-right">By <a href="/user/{userId}">{userName}</a></p>
+                <p class="text-lg font-bold text-right">By <a href="/author/{userId}">{userName}</a></p>
             </div>
             <div class="divider"></div>
             <div class="card-actions justify-end">
