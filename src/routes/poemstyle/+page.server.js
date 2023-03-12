@@ -1,5 +1,7 @@
-import {prisma} from "$lib/server/prisma.js";
+import {PrismaClient} from "@prisma/client";
 import {error, fail} from "@sveltejs/kit";
+
+const prisma = new PrismaClient();
 
 export const config = {
     runtime: 'edge',
