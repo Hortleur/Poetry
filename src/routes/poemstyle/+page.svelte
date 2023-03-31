@@ -1,9 +1,10 @@
 <script>
+    import {fade} from "svelte/transition";
     export let data
     const {styles} = data
 </script>
 
-<main class="py-10">
+<main class="py-10" in:fade out:fade>
     <h1 class="text-center text-5xl font-cursive">Styles de Poèmes</h1>
     <div class="mt-20">
         {#each styles as poemStyle}

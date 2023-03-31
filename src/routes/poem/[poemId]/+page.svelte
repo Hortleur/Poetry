@@ -1,10 +1,11 @@
 <script>
+    import {fade} from "svelte/transition";
     export let data
 
     const poem = data.poems
 </script>
 
-<main class="py-10">
+<main class="py-10" in:fade out:fade>
     <div class="w-3/4 mx-auto py-10 glass rounded-2xl">
         <div><img class="w-3/4 mx-auto rounded-2xl" src="{poem.picture}" alt="{poem.title}"></div>
         <div class="mt-5">

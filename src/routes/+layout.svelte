@@ -14,6 +14,7 @@
             <li><a href="/">Acceuil</a></li>
             <li><a href="/poem">Poèmes</a></li>
             <li><a href="/poemstyle">Styles</a></li>
+            <li><a href="/add">Ajoute ton poème</a></li>
         </ul>
     </div>
 </div>

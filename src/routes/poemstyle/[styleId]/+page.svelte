@@ -1,4 +1,5 @@
 <script>
+    import {fade} from "svelte/transition";
     import PoemCards from "$lib/components/PoemCards.svelte";
 
     export let data
@@ -6,7 +7,7 @@
     const style = data.poemStyles
 </script>
 
-<main class="py-20">
+<main class="py-20" in:fade out:fade>
     <div>
         <h1 class="text-center text-5xl font-cursive">{style.name}</h1>
     </div>

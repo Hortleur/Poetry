@@ -2,7 +2,6 @@
     export let data
     const author = data.author
     const Component = data.Component
-    console.log(author.poems, data)
 </script>
 
 <main class="py-10">
